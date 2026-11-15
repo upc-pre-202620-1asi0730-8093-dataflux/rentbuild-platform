@@ -82,7 +82,9 @@ if (app.Environment.IsDevelopment() || app.Environment.IsEnvironment("Testing"))
 if (modules.Modules.Count > 0 && app.Configuration.GetValue<bool>("Database:InitializeSchema"))
 {
     using var scope = app.Services.CreateScope();
-    await scope.ServiceProvider.GetRequiredService<AppDbContext>().Database.EnsureCreatedAsync();
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await db.Database.EnsureCreatedAsync();
+    await DatabaseSeeder.Seed(db);
 }
 app.MapGet("/health", () => Results.Ok(new { status = "ok", application = "RentBuild.Platform", modules = modules.Modules.Select(module => module.Name), stage = "initial-base" })).AllowAnonymous();
 app.MapControllers();
