@@ -1,0 +1,6 @@
+@RentBuild.Platform_HostAddress = http://localhost:5108
+
+GET {{RentBuild.Platform_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
