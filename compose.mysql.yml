@@ -1,0 +1,29 @@
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Define MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: rentbuild
+      MYSQL_USER: rentbuild
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Define MYSQL_PASSWORD}
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h localhost -p\"$${MYSQL_ROOT_PASSWORD}\""]
+      interval: 5s
+      timeout: 3s
+      retries: 30
+  api:
+    build: .
+    ports: ["5080:8080"]
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      Database__Provider: MySql
+      Database__InitializeSchema: "true"
+      ConnectionStrings__DefaultConnection: Server=mysql;Port=3306;Database=rentbuild;User=rentbuild;Password=${MYSQL_PASSWORD};
+      Jwt__Key: ${JWT_KEY:?Define JWT_KEY with at least 32 random characters}
+    depends_on:
+      mysql:
+        condition: service_healthy
+volumes:
+  mysql-data:
