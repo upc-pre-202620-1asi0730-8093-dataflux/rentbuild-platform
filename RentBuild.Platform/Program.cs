@@ -48,9 +48,16 @@ var key = builder.Configuration["Jwt:Key"];
 if (string.IsNullOrWhiteSpace(key))
 {
     if (!builder.Environment.IsDevelopment() && !builder.Environment.IsEnvironment("Testing")) throw new InvalidOperationException("Configure Jwt__Key with at least 32 random bytes");
-    var keyFile = Path.Combine(data, ".dev-jwt-key");
-    if (!File.Exists(keyFile)) File.WriteAllText(keyFile, Convert.ToBase64String(RandomNumberGenerator.GetBytes(48)));
-    key = File.ReadAllText(keyFile);
+    if (builder.Environment.IsEnvironment("Testing"))
+    {
+        key = Convert.ToBase64String(RandomNumberGenerator.GetBytes(48));
+    }
+    else
+    {
+        var keyFile = Path.Combine(data, ".dev-jwt-key");
+        if (!File.Exists(keyFile)) File.WriteAllText(keyFile, Convert.ToBase64String(RandomNumberGenerator.GetBytes(48)));
+        key = File.ReadAllText(keyFile);
+    }
 }
 if (Encoding.UTF8.GetByteCount(key) < 32) throw new InvalidOperationException("Jwt__Key must contain at least 32 bytes");
 builder.Configuration["Jwt:Key"] = key;
