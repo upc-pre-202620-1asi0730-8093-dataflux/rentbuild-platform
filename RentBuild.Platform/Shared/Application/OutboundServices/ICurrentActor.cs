@@ -1,4 +1,4 @@
-﻿namespace RentBuild.Platform.Shared.Application.OutboundServices;
+namespace RentBuild.Platform.Shared.Application.OutboundServices;
 
 public interface ICurrentActor
 {

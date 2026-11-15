@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Shared.Domain.Model.Aggregates;
+using RentBuild.Platform.Shared.Domain.Model.Aggregates;
 namespace RentBuild.Platform.Shared.Domain.Repositories;
 
 public interface IBaseRepository<T> where T : AggregateRoot

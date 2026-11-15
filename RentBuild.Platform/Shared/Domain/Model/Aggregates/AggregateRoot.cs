@@ -1,4 +1,4 @@
-﻿namespace RentBuild.Platform.Shared.Domain.Model.Aggregates;
+namespace RentBuild.Platform.Shared.Domain.Model.Aggregates;
 
 public sealed record DomainEvent(string Name, DateTimeOffset OccurredAt);
 public abstract class AggregateRoot

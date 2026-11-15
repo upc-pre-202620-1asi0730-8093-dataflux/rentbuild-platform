@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Shared.Domain.Model.Errors;
+using RentBuild.Platform.Shared.Domain.Model.Errors;
 namespace RentBuild.Platform.Shared.Domain.Model.ValueObjects;
 
 public static class BusinessCalendar

@@ -1,4 +1,4 @@
-﻿namespace RentBuild.Platform.Shared.Domain.Model.Errors;
+namespace RentBuild.Platform.Shared.Domain.Model.Errors;
 
 public enum ErrorKind
 {

@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Shared.Domain.Model.Errors;
+using RentBuild.Platform.Shared.Domain.Model.Errors;
 namespace RentBuild.Platform.Shared.Application.Model;
 
 public sealed record Result<T>(T? Value, DomainRuleException? Error)

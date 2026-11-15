@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Shared.Domain.Repositories;
+using RentBuild.Platform.Shared.Domain.Repositories;
 using RentBuild.Platform.Shared.Domain.Model.Errors;
 using RentBuild.Platform.Shared.Application.Model;
 namespace RentBuild.Platform.Shared.Application.Internal;
