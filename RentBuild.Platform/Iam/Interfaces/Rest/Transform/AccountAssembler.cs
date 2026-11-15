@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Application.CommandServices;
+using RentBuild.Platform.Iam.Application.CommandServices;
 using RentBuild.Platform.Iam.Domain.Model.Commands;
 using RentBuild.Platform.Iam.Interfaces.Rest.Resources;
 namespace RentBuild.Platform.Iam.Interfaces.Rest.Transform;

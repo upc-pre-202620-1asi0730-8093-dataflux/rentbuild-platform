@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Application.Internal.OutboundServices;
+using RentBuild.Platform.Iam.Application.Internal.OutboundServices;
 namespace RentBuild.Platform.Iam.Infrastructure.Hashing.BCrypt.Services;
 
 public sealed class HashingService : IHashingService

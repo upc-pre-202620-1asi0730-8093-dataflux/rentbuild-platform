@@ -1,4 +1,4 @@
-﻿namespace RentBuild.Platform.Iam.Domain.Model.Commands;
+namespace RentBuild.Platform.Iam.Domain.Model.Commands;
 
 public sealed record SignUpCommand(string FirstName, string LastName, string Email, string Password, string CompanyName, string Role);
 public sealed record SignInCommand(string Email, string Password);

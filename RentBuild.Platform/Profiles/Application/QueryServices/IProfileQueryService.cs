@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Profiles.Domain.Model.Aggregates;
+using RentBuild.Platform.Profiles.Domain.Model.Aggregates;
 namespace RentBuild.Platform.Profiles.Application.QueryServices;
 
 public interface IProfileQueryService

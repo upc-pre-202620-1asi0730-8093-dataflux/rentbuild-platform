@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 namespace RentBuild.Platform.Iam.Interfaces.Rest.Resources;
 
 public sealed record SignUpResource([Required] string FirstName, [Required] string LastName, [Required, EmailAddress] string Email, [Required] string Password, [Required] string CompanyName, [Required] string Role);

@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Application.QueryServices;
+using RentBuild.Platform.Iam.Application.QueryServices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using RentBuild.Platform.Iam.Application.CommandServices;

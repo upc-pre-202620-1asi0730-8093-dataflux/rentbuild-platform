@@ -1,4 +1,4 @@
-﻿using System.Net.Mail;
+using System.Net.Mail;
 using RentBuild.Platform.Shared.Domain.Model.Errors;
 namespace RentBuild.Platform.Iam.Domain.Model.ValueObjects;
 

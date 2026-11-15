@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Domain.Model.Commands;
+using RentBuild.Platform.Iam.Domain.Model.Commands;
 using RentBuild.Platform.Shared.Application.Model;
 namespace RentBuild.Platform.Iam.Application.CommandServices;
 

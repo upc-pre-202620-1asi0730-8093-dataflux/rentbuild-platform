@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Shared.Application.Model;
+using RentBuild.Platform.Shared.Application.Model;
 using RentBuild.Platform.Profiles.Domain.Model.Aggregates;
 using RentBuild.Platform.Profiles.Domain.Model.Commands;
 namespace RentBuild.Platform.Profiles.Application.CommandServices;

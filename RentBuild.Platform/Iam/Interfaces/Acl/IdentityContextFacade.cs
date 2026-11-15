@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Application.Acl;
+using RentBuild.Platform.Iam.Application.Acl;
 using RentBuild.Platform.Iam.Domain.Repositories;
 namespace RentBuild.Platform.Iam.Interfaces.Acl;
 

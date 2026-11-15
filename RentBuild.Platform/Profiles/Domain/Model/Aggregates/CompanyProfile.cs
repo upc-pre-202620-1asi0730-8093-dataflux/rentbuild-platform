@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Shared.Domain.Model.Aggregates;
+using RentBuild.Platform.Shared.Domain.Model.Aggregates;
 using RentBuild.Platform.Shared.Domain.Model.Errors;
 using RentBuild.Platform.Profiles.Domain.Model.ValueObjects;
 namespace RentBuild.Platform.Profiles.Domain.Model.Aggregates;

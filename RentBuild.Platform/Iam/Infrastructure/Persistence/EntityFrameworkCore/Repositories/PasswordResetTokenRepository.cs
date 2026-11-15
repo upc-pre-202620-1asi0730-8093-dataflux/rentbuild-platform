@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Domain.Model.Aggregates;
+using RentBuild.Platform.Iam.Domain.Model.Aggregates;
 using RentBuild.Platform.Iam.Domain.Repositories;
 using RentBuild.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration;
 using RentBuild.Platform.Shared.Infrastructure.Persistence.EntityFrameworkCore.Repositories;

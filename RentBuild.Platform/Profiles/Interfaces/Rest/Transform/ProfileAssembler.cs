@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Profiles.Domain.Model.Aggregates;
+using RentBuild.Platform.Profiles.Domain.Model.Aggregates;
 using RentBuild.Platform.Profiles.Domain.Model.Commands;
 using RentBuild.Platform.Profiles.Domain.Model.ValueObjects;
 using RentBuild.Platform.Profiles.Interfaces.Rest.Resources;

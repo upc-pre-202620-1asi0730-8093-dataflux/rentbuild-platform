@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Profiles.Application.QueryServices;
+using RentBuild.Platform.Profiles.Application.QueryServices;
 using RentBuild.Platform.Profiles.Domain.Repositories;
 using RentBuild.Platform.Profiles.Domain.Model.Aggregates;
 using RentBuild.Platform.Shared.Domain.Model.Errors;

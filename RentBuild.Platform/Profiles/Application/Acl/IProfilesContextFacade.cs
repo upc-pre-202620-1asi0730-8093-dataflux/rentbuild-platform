@@ -1,4 +1,4 @@
-﻿namespace RentBuild.Platform.Profiles.Application.Acl;
+namespace RentBuild.Platform.Profiles.Application.Acl;
 
 public interface IProfilesContextFacade
 {

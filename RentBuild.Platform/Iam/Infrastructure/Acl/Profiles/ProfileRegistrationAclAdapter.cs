@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Application.Internal.OutboundServices;
+using RentBuild.Platform.Iam.Application.Internal.OutboundServices;
 using RentBuild.Platform.Profiles.Application.Acl;
 namespace RentBuild.Platform.Iam.Infrastructure.Acl.Profiles;
 

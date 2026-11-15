@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Iam.Domain.Model.Aggregates;
+using RentBuild.Platform.Iam.Domain.Model.Aggregates;
 namespace RentBuild.Platform.Iam.Application.Internal.OutboundServices;
 
 public interface IHashingService

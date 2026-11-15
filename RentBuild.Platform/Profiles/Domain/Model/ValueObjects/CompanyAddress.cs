@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Shared.Domain.Model.Errors;
+using RentBuild.Platform.Shared.Domain.Model.Errors;
 namespace RentBuild.Platform.Profiles.Domain.Model.ValueObjects;
 
 public sealed record CompanyAddress(string Street = "", string District = "", string City = "", string Country = "", double Latitude = 0, double Longitude = 0)

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using RentBuild.Platform.Profiles.Application.CommandServices;
 using RentBuild.Platform.Profiles.Application.QueryServices;

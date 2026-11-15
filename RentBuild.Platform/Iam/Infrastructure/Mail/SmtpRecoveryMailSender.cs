@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using System.Net.Mail;
 using RentBuild.Platform.Iam.Application.Internal.OutboundServices;
 using RentBuild.Platform.Shared.Domain.Model.Errors;

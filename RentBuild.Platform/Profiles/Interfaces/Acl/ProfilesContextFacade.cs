@@ -1,4 +1,4 @@
-﻿using RentBuild.Platform.Profiles.Application.Acl;
+using RentBuild.Platform.Profiles.Application.Acl;
 using RentBuild.Platform.Profiles.Domain.Repositories;
 using RentBuild.Platform.Profiles.Domain.Model.Aggregates;
 namespace RentBuild.Platform.Profiles.Interfaces.Acl;
