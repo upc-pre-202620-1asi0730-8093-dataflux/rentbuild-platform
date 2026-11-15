@@ -1,0 +1,16 @@
+﻿# .NET - archivos compilados
+**/bin/
+**/obj/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.user
+*.suo
+
+# Visual Studio
+.vs/
+
+# Archivos temporales
+*.log
+*.tmp
